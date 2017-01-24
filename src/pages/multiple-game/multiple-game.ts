@@ -12,7 +12,8 @@ import { NavController, NavParams } from 'ionic-angular';
   templateUrl: 'multiple-game.html'
 })
 export class MultipleGamePage {
-
+  title ="Ortak Oyun";
+  
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
   ionViewDidLoad() {

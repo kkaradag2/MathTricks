@@ -13,6 +13,7 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class MemorizedPage {
 
+	title = "Ezberle";
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
   ionViewDidLoad() {

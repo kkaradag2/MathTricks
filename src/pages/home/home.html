@@ -10,9 +10,9 @@
 
   <ion-list>
 
-    <ion-list-header></ion-list-header>
+    
 
-  <button ion-item (click)="goSingle-game()">
+  <button ion-item (click)="goSingleGamePage()">
     <ion-avatar item-left>
         <img src="assets/img/Games-icon.png">
       </ion-avatar>
@@ -21,39 +21,39 @@
       <ion-icon name="arrow-forward" item-right></ion-icon>
   </button>
 
- <button ion-item (click)="goSingle-game()">
+ <button ion-item (click)="goMultipleGamePage()">
     <ion-avatar item-left>        
         <img src="assets/img/Device-Game-Drive-icon.png">
     </ion-avatar>
-      <h2>Multiplayer Games</h2>
-      <p>The claw is our master.</p>
+      <h2>Ortak Oyun</h2>
+      <p>Bir akradaşınızla yarışarak öğrendiklerini pekiştirin.</p>
       <ion-icon name="arrow-forward" item-right></ion-icon>
   </button>
 
-  <button ion-item (click)="goSingle-game()">
+  <button ion-item (click)="goMemorizedPage()">
     <ion-avatar item-left>
       <img src="assets/img/school-icon.png">
     </ion-avatar>
-    <h2>Sarge</h2>
-    <p>Code Red, repeat: We're at Code Red!</p>
+    <h2>Ezberle</h2>
+    <p>Bunları ezberlemek çok işine yarayacak.</p>
     <ion-icon name="arrow-forward" item-right></ion-icon>
   </button>
   
-  <button ion-item (click)="goSingle-game()">
+  <button ion-item (click)="goEducationListPage()" text-wrap>
     <ion-avatar item-left>
       <img src="assets/img/Working-Memory-Icon-Big.png">
     </ion-avatar>
-    <h2>Bo Peep</h2>
-    <p>What would you say if I get someone else to watch the sheep for me tonight?</p>
+    <h2>Eğitimler</h2>
+    <p>Hazırladığımız eğitim videoları ve step resimler ile Matematik Hilelerini öğrenebilirsiniz.</p>
     <ion-icon name="arrow-forward" item-right></ion-icon>
   </button>
 
-  <button ion-item (click)="goSingle-game()">
+  <button ion-item  (click)="goSettingsPage();">
     <ion-avatar item-left>
       <img src="assets/img/featured01.png">
     </ion-avatar>
-    <h2>Bo Peep</h2>
-    <p>What would you say if I get someone else to watch the sheep for me tonight?</p>
+    <h2>Ayarlar</h2>
+    <p>Uygulama ayarlarını yönetin</p>
     <ion-icon name="arrow-forward" item-right></ion-icon>
   </button>
 
