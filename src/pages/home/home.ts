@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { Platform } from 'ionic-angular';
 
 import { SettingsPage } from '../settings/settings'
 import { SingleGamesPage } from '../single-games/single-games'
@@ -13,8 +14,17 @@ import { EducationListPage } from '../education-list/education-list'
   templateUrl: 'home.html'
 })
 export class HomePage {
-  constructor(public navCtrl: NavController) {}
 
+  ios = false;
+
+  constructor(public navCtrl: NavController, public plt: Platform) { 
+
+    if (this.plt.is('ios')) {      
+      this.ios = true;
+    }
+
+   }
+   
   	goSettingsPage(){
   		this.navCtrl.push(SettingsPage);
   	}
@@ -33,4 +43,5 @@ export class HomePage {
     goEducationListPage(){
       this.navCtrl.push(EducationListPage);
     }
+
 }

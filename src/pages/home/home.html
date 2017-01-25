@@ -5,20 +5,14 @@
 </ion-header>
 
 <ion-content class="list-avatar-page">
-
-
-
-  <ion-list>
-
-    
-
+  <ion-list>   
   <button ion-item (click)="goSingleGamePage()">
     <ion-avatar item-left>
         <img src="assets/img/Games-icon.png">
       </ion-avatar>
       <h2>Tek Oyun</h2>
       <p>Ögrendiklerinizi oyunlarla pekiştirin.</p>
-      <ion-icon name="arrow-forward" item-right></ion-icon>
+      <ion-icon name="arrow-forward" item-right [hidden]="ios"></ion-icon>
   </button>
 
  <button ion-item (click)="goMultipleGamePage()">
@@ -27,7 +21,7 @@
     </ion-avatar>
       <h2>Ortak Oyun</h2>
       <p>Bir akradaşınızla yarışarak öğrendiklerini pekiştirin.</p>
-      <ion-icon name="arrow-forward" item-right></ion-icon>
+      <ion-icon name="arrow-forward" item-right item-right [hidden]="ios"></ion-icon>
   </button>
 
   <button ion-item (click)="goMemorizedPage()">
@@ -36,7 +30,7 @@
     </ion-avatar>
     <h2>Ezberle</h2>
     <p>Bunları ezberlemek çok işine yarayacak.</p>
-    <ion-icon name="arrow-forward" item-right></ion-icon>
+    <ion-icon name="arrow-forward" item-right item-right [hidden]="ios"></ion-icon>
   </button>
   
   <button ion-item (click)="goEducationListPage()" text-wrap>
@@ -45,7 +39,7 @@
     </ion-avatar>
     <h2>Eğitimler</h2>
     <p>Hazırladığımız eğitim videoları ve step resimler ile Matematik Hilelerini öğrenebilirsiniz.</p>
-    <ion-icon name="arrow-forward" item-right></ion-icon>
+    <ion-icon name="arrow-forward" item-right item-right [hidden]="ios"></ion-icon>
   </button>
 
   <button ion-item  (click)="goSettingsPage();">
@@ -54,7 +48,7 @@
     </ion-avatar>
     <h2>Ayarlar</h2>
     <p>Uygulama ayarlarını yönetin</p>
-    <ion-icon name="arrow-forward" item-right></ion-icon>
+    <ion-icon name="arrow-forward" item-right item-right [hidden]="ios"></ion-icon>
   </button>
 
  </ion-list>

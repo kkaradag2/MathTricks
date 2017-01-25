@@ -8,6 +8,7 @@ import { MultipleGamePage } from '../pages/multiple-game/multiple-game'
 import { MemorizedPage } from '../pages/memorized/memorized'
 import { EducationListPage } from '../pages/education-list/education-list'
 
+
 @NgModule({
   declarations: [
     MyApp,
