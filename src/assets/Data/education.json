@@ -1,0 +1,44 @@
+{
+  "root": [
+    {
+      "name": "Toplama",
+      "icon" :"assets/img/plus.png",
+      "no":"1"
+    },
+    {
+      "name": "Çikarma",      
+      "icon" :"assets/img/minus.png",
+      "no":"2"
+    },
+    {
+      "name": "Çarpma",      
+      "icon" :"assets/img/multiply.png",
+      "no":"3"
+    },
+    {
+      "name": "Bölme",      
+      "icon" :"assets/img/division.png",
+      "no":"4"
+    },
+    {
+      "name": "Karesini bulma",      
+      "icon" :"assets/img/Karesi.png",
+      "no":"5"
+    },
+    {
+      "name": "Üs Alma",      
+      "icon" :"assets/img/abacus.png",
+      "no":"5"
+    },
+    {
+      "name": "Kök Alma",      
+      "icon" :"assets/img/karakok.png",
+      "no":"5"
+    },
+    {
+      "name": "Yüzde",      
+      "icon" :"assets/img/percentage.png",
+      "no":"5"
+    }
+  ]
+}

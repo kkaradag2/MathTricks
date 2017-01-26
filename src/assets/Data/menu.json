@@ -1,0 +1,34 @@
+{
+  "root": [
+    {
+      "name": "Eğitimler",
+      "Description": "Hazırladığımız eğitim videoları ve resimler ile Matematik Hillerini öğrenin.",
+      "icon" :"assets/img/Working-Memory-Icon-Big.png",
+      "no":"1"
+    },
+    {
+      "name": "Tek Oyun",
+      "Description": "Öğrendikleriniz Oyunlar ile pekiştirin",
+      "icon" :"assets/img/Games-icon.png",
+      "no":"2"
+    },
+    {
+      "name": "Ortak Oyun",
+      "Description": "Arkadaşınızla birlikte oynayın",
+      "icon" :"assets/img/Device-Game-Drive-icon.png",
+      "no":"3"
+    },
+    {
+      "name": "Ezberle",
+      "Description": "Bunları ezberleyin işiniz kolaylaşacak",
+      "icon" :"assets/img/school-icon.png",
+      "no":"4"
+    },
+    {
+      "name": "Ayarlar",
+      "Description": "Uygulama ayarları",
+      "icon" :"assets/img/featured01.png",
+      "no":"5"
+    }
+  ]
+}
