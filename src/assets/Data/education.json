@@ -3,42 +3,76 @@
     {
       "name": "Toplama",
       "icon" :"assets/img/plus.png",
-      "no":"1"
+      "icon2": "arrow-down",
+      "no":"1",
+      "showDetails": false,
+      "SubMenu": [
+        {"name":"Toplama", "number":"1"},
+        {"name":"Yüzler basamagına en yakın sayıları toplama", "number":"2"}
+      ]
     },
     {
       "name": "Çikarma",      
       "icon" :"assets/img/minus.png",
-      "no":"2"
+      "icon2": "arrow-down",
+      "no":"2",
+      "showDetails": false,      
+      "SubMenu": [
+        {"name":"Çıkarma", "number":"1"},
+        {"name":"Yüzler basamagına en yakın sayıları çıkarma", "number":"2"},
+        {"name":"100'den çıkarma", "number":"3"}
+      ]
     },
     {
       "name": "Çarpma",      
       "icon" :"assets/img/multiply.png",
-      "no":"3"
+      "icon2": "arrow-down",
+      "no":"3",
+      "showDetails": false,
+      "SubMenu": [
+        {"name":"Çarpma", "number":"1"},
+        {"name":"iki basamaklı sayıları 11 ile çarpma", "number":"2"},
+        {"name":"Onlar basamağı ve birler basaağı aynı olan iki haneli sayıları çarpma", "number":"3"},
+        {"name":"Sonu 1 ile biten iki basamklı sayıları çarpma", "number":"4"},
+        {"name":"11 ile 19 arasındaki sayıları çarpma", "number":"5"},
+        {"name":"0.2 ile çarpma", "number":"6"},
+        {"name":"0.25 ile çarpma", "number":"7"}
+      ]
     },
     {
       "name": "Bölme",      
       "icon" :"assets/img/division.png",
-      "no":"4"
+      "icon2": "arrow-down",
+      "no":"4",
+      "showDetails": false
     },
     {
       "name": "Karesini bulma",      
       "icon" :"assets/img/Karesi.png",
-      "no":"5"
+      "icon2": "arrow-down",
+      "no":"5",
+      "showDetails": false
     },
     {
       "name": "Üs Alma",      
       "icon" :"assets/img/abacus.png",
-      "no":"5"
+      "icon2": "arrow-down",
+      "no":"5",
+      "showDetails": false
     },
     {
       "name": "Kök Alma",      
       "icon" :"assets/img/karakok.png",
-      "no":"5"
+      "icon2": "arrow-down",
+      "no":"5",
+      "showDetails": false
     },
     {
       "name": "Yüzde",      
       "icon" :"assets/img/percentage.png",
-      "no":"5"
+      "icon2": "arrow-down",
+      "no":"5",
+      "showDetails": false
     }
   ]
 }

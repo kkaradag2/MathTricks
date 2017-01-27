@@ -1,18 +1,30 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Education List</ion-title>
+  <ion-navbar color="primary">
+    <ion-title>
+      Ionic Accordion
+    </ion-title>
   </ion-navbar>
 </ion-header>
 
-
 <ion-content padding>
-<ion-list>
-    <ion-item *ngFor="let person of people">
-      <ion-avatar item-left>
-        <img src="{{person.picture.thumbnail}}">
-      </ion-avatar>
-      <h2>{{person.name.first}} {{person.name.last}}</h2>
-      <p>{{person.email}}</p>
+  <ion-list>
+    <ion-list-header>
+      Eğitimler
+    </ion-list-header>
+    <ion-item  *ngFor="let item of items" (click)="toggleDetails(item)">
+      <ion-avatar item-left><img src="{{item.icon}}"></ion-avatar>
+      <ion-icon color="primary" item-right [name]="item.icon2"></ion-icon>
+      <h2>{{item.name}}</h2>
+  
+       <ion-list  *ngIf="item.showDetails" >
+          <ion-item text-wrap no-lines *ngFor="let subitem of item.SubMenu">
+              <ion-badge item-left>{{subitem.number}}</ion-badge>
+               <h5 wrap-text>{{subitem.name}}</h5>
+          </ion-item>                 
+       </ion-list>
+
     </ion-item>
   </ion-list>
 </ion-content>
+
+

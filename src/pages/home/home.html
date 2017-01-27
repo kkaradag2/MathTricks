@@ -1,17 +1,16 @@
 
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>Matematik Hileleri</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
-  <ion-list>
-        <ion-list-header>
-          Menu
-        </ion-list-header>
+<br/>
+  <ion-list >
+
         <div *ngFor="let item of menuitems">
-            <button ion-item wrap-text (click)=fnMenuClick(item.no)>
+            <button ion-item text-wrap  (click)=fnMenuClick(item.no)>
                 <ion-avatar item-left><img src="{{item.icon}}"></ion-avatar>
                 <h2>{{item.name}}</h2>
                 <p>{{item.Description}}</p>
